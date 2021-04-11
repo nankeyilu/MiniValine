@@ -1,4 +1,4 @@
-import { pf } from '../Default'
+//import { pf } from '../Default'
 import getScript from './plugins/getScript'
 import GetIP from './plugins/GetIP'
 const script = (root) => {
@@ -9,10 +9,12 @@ const script = (root) => {
       root.C.ip = window.MV.ip
     }
   }
+  /*
   if (typeof window.MV.pf == 'undefined') {
     getScript(pf)
     window.MV.pf = true
   }
+  */
   if (root.conf.barrager) {
     if (typeof window.MV.jq == 'undefined') {
       if (typeof jQuery == 'undefined') {
