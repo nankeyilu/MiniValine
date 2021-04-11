@@ -17,8 +17,7 @@ const submitBtnEvt = (root) => {
       return
     }
     if (root.C.nick === '') {
-      root.inputs.nick.focus()
-      return
+      root.C.nick = 'Anonymous'
     }
     // render markdown
     const render = (root) => {

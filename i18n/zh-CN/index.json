@@ -1,6 +1,6 @@
 {
-	"nick": "昵称",
-	"mail": "邮箱",
+	"nick": "昵称 (留空则为Anonymous)",
+	"mail": "邮箱 (可选)",
 	"link": "网站 (可选)",
 	"noCommentYet": "快来做第一个评论的人吧~",
 	"submit": "提交",

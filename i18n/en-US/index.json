@@ -1,7 +1,7 @@
 {
-	"nick": "Name",
-	"mail": "Mail",
-	"link": "Website(optional)",
+	"nick": "Name (Anonymous if empty)",
+	"mail": "Mail (optional)",
+	"link": "Website (optional)",
 	"noCommentYet": "No comment yet.",
 	"submit": "Submit",
 	"reply": "Reply",
